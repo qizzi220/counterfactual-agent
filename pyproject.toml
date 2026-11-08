@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling>=1.26,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "counterfactual-agent"
+version = "0.1.0"
+description = "Local counterfactual SQL checks and evidence-gated experience memory for AI agents"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "Vsevolod Kuznetsov" }]
+dependencies = ["mcp>=1.12,<2"]
+keywords = ["mcp", "agents", "sql", "counterfactual", "memory"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Topic :: Database",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+counterfactual-agent = "counterfactual_agent.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/counterfactual_agent"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "skills", "examples", "docs", "README.md", "CONTRIBUTING.md", "SECURITY.md", "LICENSE", "pyproject.toml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

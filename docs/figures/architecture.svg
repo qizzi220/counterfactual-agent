@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="770" viewBox="0 45 820 770"><defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6.5" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#111111"/></marker></defs><rect y="45" width="100%" height="770" fill="white"/>
+<rect x="145" y="290" width="230" height="365" rx="18" fill="#f1f1f1" stroke="#111111" stroke-width="2.2"/>
+<rect x="465" y="390" width="230" height="205" rx="18" fill="#f1f1f1" stroke="#111111" stroke-width="2.2"/>
+<rect x="170" y="735" width="180" height="55" rx="5" fill="#efd1db" stroke="#111111" stroke-width="2.2"/>
+<text x="260.0" y="769.64" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111">Task Context</text>
+<rect x="490" y="735" width="180" height="55" rx="5" fill="#efd1db" stroke="#111111" stroke-width="2.2"/>
+<text x="580.0" y="769.64" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111">Data Snapshot</text>
+<rect x="170" y="575" width="180" height="50" rx="5" fill="#f4dfb4" stroke="#111111" stroke-width="2.2"/>
+<text x="260.0" y="607.14" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111">Retrieve</text>
+<rect x="170" y="475" width="180" height="65" rx="5" fill="#c4e5ee" stroke="#111111" stroke-width="2.2"/>
+<text x="260.0" y="514.64" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111">Generate SQL</text>
+<rect x="170" y="325" width="180" height="65" rx="5" fill="#c4e5ee" stroke="#111111" stroke-width="2.2"/>
+<text x="260.0" y="364.64" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111">Reflect</text>
+<rect x="170" y="180" width="180" height="45" rx="5" fill="#d4e9c5" stroke="#111111" stroke-width="2.2"/>
+<text x="260.0" y="209.64" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111">Answer</text>
+<polyline points="260,735 260,625" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="260,575 260,540" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="260,475 260,390" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="260,325 260,225" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="490" y="635" width="180" height="50" rx="5" fill="#f4dfb4" stroke="#111111" stroke-width="2.2"/>
+<text x="580.0" y="667.14" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111">Perturb</text>
+<rect x="490" y="475" width="180" height="65" rx="5" fill="#c4e5ee" stroke="#111111" stroke-width="2.2"/>
+<text x="580.0" y="514.64" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111">Execute</text>
+<rect x="490" y="410" width="180" height="40" rx="5" fill="#f0edc5" stroke="#111111" stroke-width="2.2"/>
+<text x="580.0" y="437.14" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111">Compare</text>
+<rect x="490" y="285" width="180" height="45" rx="5" fill="#f0edc5" stroke="#111111" stroke-width="2.2"/>
+<text x="580.0" y="314.64" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111">Validate</text>
+<rect x="490" y="180" width="180" height="45" rx="5" fill="#ded9ee" stroke="#111111" stroke-width="2.2"/>
+<text x="580.0" y="209.3" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#111111">Memory Update</text>
+<rect x="490" y="75" width="180" height="45" rx="5" fill="#d4e9c5" stroke="#111111" stroke-width="2.2"/>
+<text x="580.0" y="104.64" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" fill="#111111">Lessons</text>
+<polyline points="580,735 580,685" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="580,635 580,540" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="580,475 580,450" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="580,410 580,330" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="580,285 580,225" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="580,180 580,120" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="350,507 490,507" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="490,430 415,430 415,357 350,357" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="170,357 115,357 115,507 170,507" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<polyline points="490,97 80,97 80,600 170,600" fill="none" stroke="#111111" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+</svg>
